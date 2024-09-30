@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.header {
+    text-align: center;
+    background-color: green;
+    border-radius: 30px;
+    border: 2px solid rgb(7, 61, 7)
+}
+
+.footer {
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 30px;
+    border: 2px solid rgb(65, 130, 108);
+}
+
+.navbar {
+    background-color: rgb(216, 216, 216);
+    padding: 10px;
+    border-radius: 30px;
+    border:1px solid black;
+}
+
+.navbar a.right{
+    float:right;
+}
+
+.side {
+    flex: 50%;
+    padding: 20px;    /*pixel from the margin*/
+    border:1px solid goldenrod;
+    background-color: lightblue;
+    border-radius: 30px;
+}
+
+.main {
+    flex: 50%;
+    padding: 20px;
+    border: 1px solid blueviolet;
+    background-color: rgb(213, 148, 201);
+    border-radius: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+
+.picture {
+    width: 400px;
+    height: auto;
+}
